@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+.content {
+  background-color: black;
+}
+nav {
+  margin: 0px auto 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  background: black;
+  font-family: "Acme", sans-serif;
+}
+
+nav a {
+  margin-left: 20px;
+  padding-right: 8px;
+  text-decoration: none;
+  color: rgb(200, 198, 198);
+  font-size: 2rem;
+}
+
+nav a:hover {
+  /* border-bottom: 4px solid rgb(200, 198, 198); */
+  color: rgb(253, 253, 253);
+}
+
+nav .logo {
+  margin-right: auto;
+  padding-left: 10px;
+}
+
+nav img {
+  height: 75px;
+}
+
+h1 {
+  color: #54afb3;
+  justify-self: center;
+  margin: 0 auto;
+  font-size: 4.25rem;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  background: black;
+  color: #54afb3;
+  font-family: "Acme", sans-serif;
+  font-size: 1.3rem;
+}
+
+.bbqPlateImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
