@@ -40,11 +40,12 @@ nav img {
   height: 75px;
 }
 
-h1 {
+.navbar-header {
   color: #54afb3;
   justify-self: center;
   margin: 0 auto;
   font-size: 4.25rem;
+  position: relative;
 }
 
 footer {
@@ -62,4 +63,18 @@ footer {
   margin-right: auto;
   width: 100%;
   height: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+.not-found {
+  color: #54afb3;
+  text-align: center;
+  margin-bottom: 100%;
+  font-size: 3rem;
+}
+
+.not-found a {
+  color: blue;
+  text-decoration: underline;
 }

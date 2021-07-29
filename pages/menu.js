@@ -1,7 +1,10 @@
 const Menu = () => {
   return (
     <div>
-      <h1>This is the menu component!</h1>
+      <>
+        <img className="bbqPlateImg" src="/bbqPlate2.jpg" />;
+        <h1>This is the menu component!</h1>
+      </>
     </div>
   );
 };
