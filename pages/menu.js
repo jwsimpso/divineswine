@@ -2,11 +2,11 @@ const Menu = () => {
   return (
     <div>
       <>
-        <img className="bbqPlateImg" src="/bbqPlate2.jpg" />;
-        <h1>This is the menu component!</h1>
+        <h1 className='menu-header'>This is the menu component!</h1>
+        {/* <img className='bbqPlateImg' src='/bbqPlate2.jpg' />; */}
       </>
     </div>
-  );
-};
+  )
+}
 
-export default Menu;
+export default Menu

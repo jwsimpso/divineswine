@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 .content {
   background-color: black;
 }
@@ -15,7 +15,7 @@ nav {
   align-items: flex-end;
 
   background: black;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
 }
 
 nav a {
@@ -53,7 +53,7 @@ footer {
   text-align: center;
   background: black;
   color: #54afb3;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
   font-size: 1.3rem;
 }
 
@@ -77,4 +77,11 @@ footer {
 .not-found a {
   color: blue;
   text-decoration: underline;
+}
+
+.menu-header {
+  color: #54afb3;
+  text-align: center;
+  margin-bottom: 100%;
+  font-size: 3rem;
 }
