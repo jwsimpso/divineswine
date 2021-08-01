@@ -1,26 +1,25 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav>
-      <div className="logo">
-        <img src="/logo.svg" />
-      </div>
-      <h1 className="navbar-header">Happy Hog</h1>
-      <Link href="/">
+    <nav class='navbar'>
+      <img className='logo' src='/logo.svg' />
+
+      <h1 className='navbar-header'>Happy Hog</h1>
+      <Link href='/'>
         <a>Home</a>
       </Link>
-      <Link href="/about">
+      <Link href='/about'>
         <a>About</a>
       </Link>
-      <Link href="/menu">
+      <Link href='/menu'>
         <a>Menu</a>
       </Link>
-      <Link href="/catering">
+      <Link href='/catering'>
         <a>Catering</a>
       </Link>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

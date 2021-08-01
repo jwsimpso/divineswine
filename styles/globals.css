@@ -8,17 +8,17 @@ body {
 .content {
   background-color: black;
 }
-nav {
-  margin: 0px auto 0px;
+
+.navbar {
+  margin: 0px auto;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-
   background: black;
   font-family: 'Acme', sans-serif;
 }
 
-nav a {
+.navbar a {
   margin-left: 20px;
   padding-right: 8px;
   text-decoration: none;
@@ -26,18 +26,13 @@ nav a {
   font-size: 2rem;
 }
 
-nav a:hover {
+.navbar a:hover {
   /* border-bottom: 4px solid rgb(200, 198, 198); */
   color: rgb(253, 253, 253);
 }
 
-nav .logo {
-  margin-right: auto;
-  padding-left: 10px;
-}
-
-nav img {
-  height: 75px;
+.logo {
+  height: 90px;
 }
 
 .navbar-header {
@@ -45,7 +40,6 @@ nav img {
   justify-self: center;
   margin: 0 auto;
   font-size: 4.25rem;
-  position: relative;
 }
 
 footer {
@@ -63,7 +57,6 @@ footer {
   margin-right: auto;
   width: 100%;
   height: auto;
-  position: absolute;
   z-index: -1;
 }
 
